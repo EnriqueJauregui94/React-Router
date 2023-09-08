@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import BlueComponent from './Components/Blue'; // Import the BlueComponent
 import RedComponent from './Components/Red'; // Import the RedComponent
-import HomeComponent from './Components/Home';
-import Navbar from './components/Navbar';
-import MainContainer from './components/MainContainer';
+import Home from './Components/Home'; // Corrected import for the Home component
+import Navbar from './Components/Navbar';
+import MainContainer from './Components/MainContainer';
 import './App.css';
 
 function App() {
