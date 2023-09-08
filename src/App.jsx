@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import BlueComponent from './Components/Blue'; // Import the BlueComponent
 import RedComponent from './Components/Red'; // Import the RedComponent
-import Home from './components/Home'; // Corrected import for the Home component
+import HomeComponent from './Components/Home';
 import Navbar from './components/Navbar';
 import MainContainer from './components/MainContainer';
 import './App.css';
